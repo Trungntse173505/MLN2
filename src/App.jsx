@@ -213,7 +213,7 @@ const Slide9 = () => (
     <h2 className="section-title">Kết luận</h2>
     <Divider />
     <div className="concl-card">
-      <p>"Biên giới mềm" là thách thức nhưng cũng là vận hội. Việt Nam chỉ có thể vươn tầm khi thực thi song hành hội nhập và tự chủ.</p>
+      <p>"Biên giới mềm" là thách thức nhưng cũng là cơ hội. Việt Nam chỉ có thể vươn tầm khi thực thi song hành hội nhập và tự chủ.</p>
     </div>
     <div className="thanks">Cảm ơn thầy và các bạn đã lắng nghe!</div>
   </div>
