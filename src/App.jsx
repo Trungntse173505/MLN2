@@ -40,7 +40,7 @@ const Slide1 = () => (
       </div>
       <div className="info-row">
         <div className="info-chip"><span className="label">Học phần:</span> Kinh tế chính trị Mác – Lênin</div>
-        <div className="info-chip"><span className="label">Nhóm:</span> _______________</div>
+        <div className="info-chip"><span className="label">Nhóm:</span> MLN122-Nhóm 6</div>
       </div>
     </div>
   </div>
@@ -267,9 +267,6 @@ export default function App() {
               {item.title}
             </div>
           ))}
-        </div>
-        <div className="sidebar-footer">
-          <p>© 2026 Presentation</p>
         </div>
       </aside>
 
