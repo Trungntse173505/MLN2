@@ -33,17 +33,12 @@ export default function Slide3() {
               Tính tất yếu:
             </div>
             <div className={styles.point} style={{ '--delay': '0ms', '--accent': 'var(--gold)' }}>
-              <span className={styles.pointBullet} style={{ background: 'var(--gold)' }} />
-              <span className={styles.pointText}>Do toàn cầu hóa</span>
+              <span className={styles.pointText} style={{ fontWeight: 500, color: 'var(--gold)', marginRight: '8px' }}>1.</span>
+              <span className={styles.pointText}>Xu thế khách quan trong bối cảnh toàn cầu hoá kinh tế</span>
             </div>
             <div className={styles.point} style={{ '--delay': '80ms', '--accent': 'var(--gold)' }}>
-              <span className={styles.pointBullet} style={{ background: 'var(--gold)' }} />
-              <span className={styles.pointText}>Do phân công lao động quốc tế</span>
-            </div>
-            <div style={{ marginTop: '16px', paddingTop: '12px', borderTop: '1px solid rgba(255, 255, 255, 0.1)' }}>
-              <div style={{ fontSize: '0.95rem', color: 'var(--gold)', fontWeight: 500 }}>
-                → Là phương thức phát triển phổ biến của các quốc gia
-              </div>
+              <span className={styles.pointText} style={{ fontWeight: 500, color: 'var(--gold)', marginRight: '8px' }}>2.</span>
+              <span className={styles.pointText}>HNKTQT là phương thức phát triển phổ biến của các nước, nhất là những nước đang và kém phát triển trong điều kiện hiện nay</span>
             </div>
           </div>
         </div>
