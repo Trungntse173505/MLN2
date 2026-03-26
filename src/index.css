@@ -1,21 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@500;700&family=Source+Sans+3:wght@400;500;600;700&display=swap');
 
 :root {
-  --bg: #ffffff;
-  --ink: #0d1b2a;
-  --ink-soft: #415a77;
-  --line: #778da9;
-  --line-soft: #e0e1dd;
-  --panel: rgba(255, 255, 255, 0.95);
-  --panel-strong: rgba(255, 255, 255, 1);
-  --accent: #005f73;
-  --accent-soft: #0a9396;
-  --shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
-  --gold: #ee9b00;
-  --cream: #fdf6e3;
-  --text-secondary: #526980;
+  --bg: #e8e2d7;
+  --ink: #1b2735;
+  --ink-soft: #4d5e70;
+  --line: #c6cdd6;
+  --line-soft: #dbe0e6;
+  --panel: rgba(255, 255, 255, 0.86);
+  --panel-strong: rgba(255, 255, 255, 0.94);
+  --accent: #184a65;
+  --accent-soft: #3f7088;
+  --shadow: 0 22px 48px rgba(11, 24, 38, 0.14);
+  
+  --navy: #1a1f2e;
+  --gold: #c9a84c;
+  --cream: #f5f1e8;
+  --text-primary: #e8e2d7;
+  --text-secondary: #b8b0a0;
+  --border: rgba(255, 255, 255, 0.1);
+  
+  --font-mono: 'Courier New', monospace;
   --font-display: 'Merriweather', serif;
-  --font-mono: 'DM Mono', monospace;
 }
 
 * {

@@ -5,6 +5,9 @@
   gap: 64px;
   align-items: center;
   width: 100%;
+  max-height: 100%;
+  overflow-y: auto;
+  padding-right: 8px;
 }
 
 .eyebrow {
@@ -21,7 +24,7 @@
   font-size: clamp(1.8rem, 3vw, 2.6rem);
   font-weight: 700;
   line-height: 1.25;
-  color: var(--ink);
+  color: #ffffff;
   margin-bottom: 24px;
   max-width: 560px;
 }
@@ -77,6 +80,9 @@
   flex-direction: column;
   gap: 40px;
   width: 100%;
+  max-height: 100%;
+  overflow-y: auto;
+  padding-right: 8px;
 }
 
 .header {
@@ -119,7 +125,7 @@
   font-family: var(--font-display);
   font-size: clamp(1.6rem, 2.8vw, 2.2rem);
   font-weight: 600;
-  color: var(--ink);
+  color: #ffffff;
   line-height: 1.2;
 }
 
@@ -178,6 +184,29 @@
     opacity: 1;
     transform: translateX(0);
   }
+}
+
+/* Custom scrollbar */
+.contentLayout::-webkit-scrollbar,
+.titleLayout::-webkit-scrollbar {
+  width: 6px;
+}
+
+.contentLayout::-webkit-scrollbar-track,
+.titleLayout::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 3px;
+}
+
+.contentLayout::-webkit-scrollbar-thumb,
+.titleLayout::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 3px;
+}
+
+.contentLayout::-webkit-scrollbar-thumb:hover,
+.titleLayout::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, 0.3);
 }
 
 @media (max-width: 900px) {
