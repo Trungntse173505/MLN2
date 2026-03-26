@@ -24,7 +24,7 @@ export default function Slide3() {
               Hội nhập kinh tế quốc tế là:
             </div>
             <div style={{ fontSize: '0.95rem', color: 'var(--text-primary)', lineHeight: 1.6, fontStyle: 'italic', paddingLeft: '16px', borderLeft: '2px solid var(--gold)' }}>
-              → Quá trình gắn kết nền kinh tế quốc gia với nền kinh tế thế giới trên cơ sở lợi ích chung
+              → Là quá trình quốc gia đó thực hiện gắn kết nền kinh tế của mình với nền kinh tế thế giới dựa trên sự chia sẻ lợi ích, đồng thời tuân thủ các chuẩn mực quốc tế chung
             </div>
           </div>
 
