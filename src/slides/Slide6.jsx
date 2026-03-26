@@ -43,8 +43,8 @@ export default function Slide6() {
 
         <div className={styles.imageArea}>
           <img 
-            src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=600&h=400&fit=crop" 
-            alt="Thách thức và nguy cơ phụ thuộc trong hội nhập"
+            src="https://images.unsplash.com/photo-1518186285589-2f7649de83e0?w=600&h=400&fit=crop" 
+            alt="Thách thức và rủi ro trong hội nhập kinh tế"
             style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: '12px' }}
           />
         </div>
