@@ -39,8 +39,8 @@ export default function Slide5() {
 
         <div className={styles.imageArea}>
           <img 
-            src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&h=400&fit=crop" 
-            alt="Tăng trưởng kinh tế và phát triển thị trường"
+            src="https://images.unsplash.com/photo-1553729459-efe14ef6055d?w=600&h=400&fit=crop" 
+            alt="Xuất khẩu hàng hóa và tăng trưởng kinh tế"
             style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: '12px' }}
           />
         </div>
