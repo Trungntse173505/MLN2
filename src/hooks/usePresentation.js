@@ -1,12 +1,11 @@
 import { useState, useEffect, useCallback } from 'react'
-import { slides } from '../data/slides'
 
 export function usePresentation() {
   const [current, setCurrent] = useState(0)
   const [direction, setDirection] = useState('forward')
   const [isFullscreen, setIsFullscreen] = useState(false)
 
-  const total = slides.length
+  const total = 10
 
   const goNext = useCallback(() => {
     if (current < total - 1) {
@@ -62,7 +61,6 @@ export function usePresentation() {
   return {
     current,
     total,
-    slide: slides[current],
     direction,
     isFullscreen,
     goNext,
