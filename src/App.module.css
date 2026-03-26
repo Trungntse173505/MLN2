@@ -1,0 +1,27 @@
+.app {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: var(--navy);
+  position: relative;
+  overflow: hidden;
+}
+
+.app::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background:
+    radial-gradient(ellipse 60% 50% at 80% 20%, rgba(201, 168, 76, 0.04) 0%, transparent 60%),
+    radial-gradient(ellipse 50% 40% at 20% 80%, rgba(76, 110, 201, 0.04) 0%, transparent 60%);
+  pointer-events: none;
+  z-index: 0;
+}
+
+.stage {
+  position: relative;
+  flex: 1;
+  overflow: hidden;
+  z-index: 1;
+}
