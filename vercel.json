@@ -1,6 +1,13 @@
 {
-  "buildCommand": "npx vite build",
+  "buildCommand": "node build.js",
   "outputDirectory": "dist",
   "installCommand": "npm install",
-  "framework": "vite"
+  "framework": "vite",
+  "functions": {},
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/index.html"
+    }
+  ]
 }
