@@ -1,5 +1,18 @@
 {
+<<<<<<< HEAD
   "buildCommand": "npm run build",
   "outputDirectory": "dist",
   "framework": "vite"
+=======
+  "buildCommand": "node vercel-build.js",
+  "outputDirectory": "dist",
+  "installCommand": "npm install",
+  "framework": "vite",
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/index.html"
+    }
+  ]
+>>>>>>> a4b6b15b657ea7a9369c08af86cdad52d7b270a3
 }
