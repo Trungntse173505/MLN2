@@ -1,5 +1,6 @@
 import ImagePlaceholder from '../components/ImagePlaceholder'
 import styles from './Slides.module.css'
+import slide1Image from '../data/photos/slide 1.jpg'
 
 export default function Slide1() {
   return (
@@ -46,7 +47,7 @@ export default function Slide1() {
         </div>
       </div>
       <div className={styles.titleImage}>
-        <ImagePlaceholder label="Bản đồ kinh tế thế giới" />
+        <ImagePlaceholder label="Bản đồ kinh tế thế giới" src={slide1Image} />
       </div>
     </div>
   )

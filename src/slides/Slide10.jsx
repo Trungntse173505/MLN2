@@ -1,5 +1,6 @@
 import ImagePlaceholder from '../components/ImagePlaceholder'
 import styles from './Slides.module.css'
+import slide10Image from '../data/photos/slide 10.jpeg'
 
 export default function Slide10() {
   return (
@@ -33,7 +34,7 @@ export default function Slide10() {
         </div>
 
         <div className={styles.imageArea}>
-          <ImagePlaceholder label="Hình ảnh: Kết luận" />
+          <ImagePlaceholder label="Hình ảnh: Kết luận" src={slide10Image} />
         </div>
       </div>
     </div>

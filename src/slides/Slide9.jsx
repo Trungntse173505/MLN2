@@ -1,5 +1,6 @@
 import ImagePlaceholder from '../components/ImagePlaceholder'
 import styles from './Slides.module.css'
+import slide9Image from '../data/photos/slide 9.jpg'
 
 export default function Slide9() {
   const accent = '#4c9ec9'
@@ -39,7 +40,7 @@ export default function Slide9() {
         </div>
 
         <div className={styles.imageArea}>
-          <ImagePlaceholder label="Hình ảnh: Giải pháp" />
+          <ImagePlaceholder label="Hình ảnh: Giải pháp" src={slide9Image} />
         </div>
       </div>
     </div>

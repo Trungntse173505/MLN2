@@ -1,5 +1,6 @@
 import ImagePlaceholder from '../components/ImagePlaceholder'
 import styles from './Slides.module.css'
+import slide7Image from '../data/photos/slide 7.jpg'
 
 export default function Slide7() {
   const accent = '#7c6fc9'
@@ -35,7 +36,7 @@ export default function Slide7() {
         </div>
 
         <div className={styles.imageArea}>
-          <ImagePlaceholder label="Hình ảnh: Quan hệ biện chứng" />
+          <ImagePlaceholder label="Hình ảnh: Quan hệ biện chứng" src={slide7Image} />
         </div>
       </div>
     </div>

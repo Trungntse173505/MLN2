@@ -1,6 +1,14 @@
 import styles from './ImagePlaceholder.module.css'
 
-export default function ImagePlaceholder({ label = 'Hình ảnh minh họa' }) {
+export default function ImagePlaceholder({ label = 'Hình ảnh minh họa', src }) {
+  if (src) {
+    return (
+      <div className={styles.imageContainer}>
+        <img src={src} alt={label} className={styles.image} />
+      </div>
+    )
+  }
+
   return (
     <div className={styles.placeholder}>
       <div className={styles.inner}>

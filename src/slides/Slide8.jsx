@@ -1,5 +1,6 @@
 import ImagePlaceholder from '../components/ImagePlaceholder'
 import styles from './Slides.module.css'
+import slide8Image from '../data/photos/slide 8.jpg'
 
 export default function Slide8() {
   return (
@@ -33,7 +34,7 @@ export default function Slide8() {
         </div>
 
         <div className={styles.imageArea}>
-          <ImagePlaceholder label="Hình ảnh: Thực trạng Việt Nam" />
+          <ImagePlaceholder label="Hình ảnh: Thực trạng Việt Nam" src={slide8Image} />
         </div>
       </div>
     </div>

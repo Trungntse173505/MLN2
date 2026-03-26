@@ -1,5 +1,6 @@
 import ImagePlaceholder from '../components/ImagePlaceholder'
 import styles from './Slides.module.css'
+import slide2Image from '../data/photos/slide 2.png'
 
 export default function Slide2() {
   return (
@@ -24,16 +25,33 @@ export default function Slide2() {
           </div>
           <div className={styles.point} style={{ '--delay': '80ms', '--accent': 'var(--gold)' }}>
             <span className={styles.pointBullet} style={{ background: 'var(--gold)' }} />
-            <span className={styles.pointText}>Phụ thuộc vào năng lực cạnh tranh và công nghệ</span>
+            <div>
+              <div className={styles.pointText}>Được quyết định bởi:</div>
+              <ul style={{ marginTop: '8px', marginLeft: '20px', display: 'flex', flexDirection: 'column', gap: '6px' }}>
+                <li style={{ listStyle: 'none', display: 'flex', alignItems: 'center', gap: '8px' }}>
+                  <span style={{ width: '4px', height: '4px', borderRadius: '50%', background: 'var(--gold)', opacity: 0.7 }} />
+                  <span className={styles.pointText} style={{ fontSize: '0.95rem' }}>Năng lực cạnh tranh</span>
+                </li>
+                <li style={{ listStyle: 'none', display: 'flex', alignItems: 'center', gap: '8px' }}>
+                  <span style={{ width: '4px', height: '4px', borderRadius: '50%', background: 'var(--gold)', opacity: 0.7 }} />
+                  <span className={styles.pointText} style={{ fontSize: '0.95rem' }}>Trình độ công nghệ</span>
+                </li>
+                <li style={{ listStyle: 'none', display: 'flex', alignItems: 'center', gap: '8px' }}>
+                  <span style={{ width: '4px', height: '4px', borderRadius: '50%', background: 'var(--gold)', opacity: 0.7 }} />
+                  <span className={styles.pointText} style={{ fontSize: '0.95rem' }}>Vị trí trong chuỗi giá trị toàn cầu</span>
+                </li>
+              </ul>
+            </div>
           </div>
-          <div className={styles.point} style={{ '--delay': '160ms', '--accent': 'var(--gold)' }}>
-            <span className={styles.pointBullet} style={{ background: 'var(--gold)' }} />
-            <span className={styles.pointText}>Gắn với chuỗi giá trị toàn cầu</span>
+          <div style={{ marginTop: '20px', paddingTop: '16px', borderTop: '1px solid rgba(255, 255, 255, 0.1)' }}>
+            <div style={{ fontSize: '0.95rem', color: 'var(--gold)', marginBottom: '6px', fontWeight: 500 }}>
+              → Quốc gia mạnh → kiểm soát "biên giới mềm"
+            </div>
           </div>
         </div>
 
         <div className={styles.imageArea}>
-          <ImagePlaceholder label="Hình ảnh: Khái niệm &quot;Biên giới mềm&quot;" />
+          <ImagePlaceholder label="Hình ảnh: Khái niệm &quot;Biên giới mềm&quot;" src={slide2Image} />
         </div>
       </div>
     </div>
