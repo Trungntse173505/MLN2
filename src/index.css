@@ -11,6 +11,11 @@
   --accent: #184a65;
   --accent-soft: #3f7088;
   --shadow: 0 22px 48px rgba(11, 24, 38, 0.14);
+  --gold: #d4af37;
+  --cream: #faf8f3;
+  --text-secondary: #666;
+  --font-display: 'Merriweather', serif;
+  --font-mono: 'DM Mono', monospace;
 }
 
 * {
