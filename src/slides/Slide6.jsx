@@ -43,8 +43,8 @@ export default function Slide6() {
 
         <div className={styles.imageArea}>
           <img 
-            src="https://images.unsplash.com/photo-1611273426761-53c8577a3dc7?w=600&h=400&fit=crop" 
-            alt="Ô nhiễm môi trường và rủi ro công nghiệp"
+            src="/src/data/photos/Screenshot 2026-03-26 152658.png" 
+            alt="Tác động tiêu cực và nguy cơ phụ thuộc"
             style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: '12px' }}
           />
         </div>
