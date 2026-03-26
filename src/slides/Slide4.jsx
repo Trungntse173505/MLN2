@@ -1,4 +1,3 @@
-import ImagePlaceholder from '../components/ImagePlaceholder'
 import styles from './Slides.module.css'
 
 export default function Slide4() {
@@ -10,9 +9,9 @@ export default function Slide4() {
         </div>
         <div className={styles.headerText}>
           <span className={styles.sectionLabel} style={{ color: 'var(--gold)' }}>
-            Nội dung
+            Tính tất yếu
           </span>
-          <h2 className={styles.slideTitle}>Nội dung hội nhập</h2>
+          <h2 className={styles.slideTitle}>Tính tất yếu của hội nhập đối với Việt Nam</h2>
         </div>
       </div>
 
@@ -20,20 +19,28 @@ export default function Slide4() {
         <div className={styles.points}>
           <div className={styles.point} style={{ '--delay': '0ms', '--accent': 'var(--gold)' }}>
             <span className={styles.pointBullet} style={{ background: 'var(--gold)' }} />
-            <span className={styles.pointText}>Chuẩn bị điều kiện: thể chế, nhân lực</span>
+            <span className={styles.pointText}>Xu thế toàn cầu hóa kinh tế: Quá trình gắn kết các quốc gia thành một thể thống nhất, nếu không hội nhập sẽ bị cô lập khỏi dòng chảy kinh tế thế giới</span>
           </div>
           <div className={styles.point} style={{ '--delay': '80ms', '--accent': 'var(--gold)' }}>
             <span className={styles.pointBullet} style={{ background: 'var(--gold)' }} />
-            <span className={styles.pointText}>Các mức độ hội nhập (FTA, liên minh kinh tế...)</span>
+            <span className={styles.pointText}>Nhu cầu phát triển kinh tế: Hội nhập giúp tiếp cận nguồn lực bên ngoài (vốn, công nghệ, kinh nghiệm quản lý) để rút ngắn khoảng cách và tránh nguy cơ tụt hậu</span>
           </div>
           <div className={styles.point} style={{ '--delay': '160ms', '--accent': 'var(--gold)' }}>
             <span className={styles.pointBullet} style={{ background: 'var(--gold)' }} />
-            <span className={styles.pointText}>Việt Nam tham gia nhiều hiệp định thương mại</span>
+            <span className={styles.pointText}>Thúc đẩy công nghiệp hóa – hiện đại hóa: Giúp Việt Nam tham gia sâu vào chuỗi giá trị toàn cầu thông qua việc mở cửa thị trường và thu hút đầu tư</span>
+          </div>
+          <div className={styles.point} style={{ '--delay': '240ms', '--accent': 'var(--gold)' }}>
+            <span className={styles.pointBullet} style={{ background: 'var(--gold)' }} />
+            <span className={styles.pointText}>Ví dụ điển hình: Gia nhập WTO (2007), tham gia ASEAN, APEC, ký kết CPTPP và RCEP</span>
           </div>
         </div>
 
         <div className={styles.imageArea}>
-          <ImagePlaceholder label="Hình ảnh: Nội dung hội nhập" />
+          <img 
+            src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=600&h=400&fit=crop" 
+            alt="Biên giới mềm và hội nhập kinh tế toàn cầu"
+            style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: '12px' }}
+          />
         </div>
       </div>
     </div>

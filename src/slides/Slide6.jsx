@@ -1,4 +1,3 @@
-import ImagePlaceholder from '../components/ImagePlaceholder'
 import styles from './Slides.module.css'
 
 export default function Slide6() {
@@ -14,7 +13,7 @@ export default function Slide6() {
           <span className={styles.sectionLabel} style={{ color: accent }}>
             Tiêu cực
           </span>
-          <h2 className={styles.slideTitle}>Tác động tiêu cực</h2>
+          <h2 className={styles.slideTitle}>Tác động tiêu cực (Nguy cơ phụ thuộc)</h2>
         </div>
       </div>
 
@@ -22,28 +21,32 @@ export default function Slide6() {
         <div className={styles.points}>
           <div className={styles.point} style={{ '--delay': '0ms', '--accent': accent }}>
             <span className={styles.pointBullet} style={{ background: accent }} />
-            <span className={styles.pointText}>Áp lực cạnh tranh khốc liệt: Nhiều doanh nghiệp nội địa, đặc biệt là doanh nghiệp vừa và nhỏ, đứng trước nguy cơ phá sản do không thể cạnh tranh về giá và chất lượng với hàng ngoại nhập</span>
+            <span className={styles.pointText}>Áp lực cạnh tranh gay gắt: Nhiều doanh nghiệp nội địa đứng trước nguy cơ phá sản khi phải đối đầu với hàng ngoại giá rẻ và công nghệ cao từ Trung Quốc, Ấn Độ</span>
           </div>
           <div className={styles.point} style={{ '--delay': '80ms', '--accent': accent }}>
             <span className={styles.pointBullet} style={{ background: accent }} />
-            <span className={styles.pointText}>Sự phụ thuộc vào thị trường bên ngoài: Nền kinh tế dễ bị tổn thương trước biến động giá cả thế giới hoặc các rào cản thương mại (như "thẻ vàng" IUU của EU đối với thủy sản)</span>
+            <span className={styles.pointText}>Phụ thuộc vào thị trường nước ngoài: Nền kinh tế dễ bị tổn thương trước biến động giá cả toàn cầu hoặc các rào cản thương mại</span>
           </div>
           <div className={styles.point} style={{ '--delay': '160ms', '--accent': accent }}>
             <span className={styles.pointBullet} style={{ background: accent }} />
-            <span className={styles.pointText}>Gia tăng khoảng cách giàu nghèo: Lợi ích hội nhập phân phối không đều giữa thành thị và nông thôn, giữa các nhóm xã hội</span>
+            <span className={styles.pointText}>Nguy cơ môi trường và giá trị thấp: Dễ trở thành "bãi thải công nghiệp" với công nghệ lạc hậu và bị mắc kẹt trong phân khúc gia công, lắp ráp có giá trị gia tăng thấp</span>
           </div>
           <div className={styles.point} style={{ '--delay': '240ms', '--accent': accent }}>
             <span className={styles.pointBullet} style={{ background: accent }} />
-            <span className={styles.pointText}>Nguy cơ ô nhiễm và "bẫy" giá trị thấp: Dễ trở thành "bãi thải công nghiệp" cho công nghệ lạc hậu và mắc kẹt trong các ngành gia công giá trị gia tăng thấp (như vụ Formosa 2016)</span>
+            <span className={styles.pointText}>Bất bình đẳng xã hội: Khoảng cách giàu nghèo gia tăng giữa thành thị và nông thôn; lợi ích hội nhập phân phối không đều</span>
           </div>
           <div className={styles.point} style={{ '--delay': '320ms', '--accent': accent }}>
             <span className={styles.pointBullet} style={{ background: accent }} />
-            <span className={styles.pointText}>Thách thức an ninh & văn hóa: Đối mặt với các vụ kiện quốc tế về đầu tư, nguy cơ xói mòn bản sắc văn hóa dân tộc trước sự "xâm lăng" của văn hóa ngoại lai (phim ảnh, lối sống phương Tây, K-pop)</span>
+            <span className={styles.pointText}>Xói mòn bản sắc văn hóa: Sự lấn lướt của văn hóa ngoại lai (phim ảnh, lối sống phương Tây) gây ảnh hưởng đến các giá trị truyền thống</span>
           </div>
         </div>
 
         <div className={styles.imageArea}>
-          <ImagePlaceholder label="Hình ảnh: Tác động tiêu cực" />
+          <img 
+            src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=600&h=400&fit=crop" 
+            alt="Thách thức và nguy cơ phụ thuộc trong hội nhập"
+            style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: '12px' }}
+          />
         </div>
       </div>
     </div>
