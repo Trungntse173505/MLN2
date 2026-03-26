@@ -39,7 +39,7 @@ export default function Slide5() {
 
         <div className={styles.imageArea}>
           <img 
-            src="/src/data/photos/Screenshot 2026-03-26 152650.png" 
+            src="/photos/Screenshot 2026-03-26 152650.png" 
             alt="Tác động tích cực của hội nhập kinh tế"
             style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: '12px' }}
           />

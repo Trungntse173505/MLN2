@@ -43,7 +43,7 @@ export default function Slide6() {
 
         <div className={styles.imageArea}>
           <img 
-            src="/src/data/photos/Screenshot 2026-03-26 152658.png" 
+            src="/photos/Screenshot 2026-03-26 152658.png" 
             alt="Tác động tiêu cực và nguy cơ phụ thuộc"
             style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: '12px' }}
           />
