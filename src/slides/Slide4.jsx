@@ -19,19 +19,15 @@ export default function Slide4() {
         <div className={styles.points}>
           <div className={styles.point} style={{ '--delay': '0ms', '--accent': 'var(--gold)' }}>
             <span className={styles.pointBullet} style={{ background: 'var(--gold)' }} />
-            <span className={styles.pointText}>Xu thế toàn cầu hóa kinh tế: Quá trình gắn kết các quốc gia thành một thể thống nhất, nếu không hội nhập sẽ bị cô lập khỏi dòng chảy kinh tế thế giới</span>
+            <span className={styles.pointText}>Xu thế toàn cầu hóa kinh tế</span>
           </div>
           <div className={styles.point} style={{ '--delay': '80ms', '--accent': 'var(--gold)' }}>
             <span className={styles.pointBullet} style={{ background: 'var(--gold)' }} />
-            <span className={styles.pointText}>Nhu cầu phát triển kinh tế: Hội nhập giúp tiếp cận nguồn lực bên ngoài (vốn, công nghệ, kinh nghiệm quản lý) để rút ngắn khoảng cách và tránh nguy cơ tụt hậu</span>
+            <span className={styles.pointText}>Nhu cầu phát triển kinh tế</span>
           </div>
           <div className={styles.point} style={{ '--delay': '160ms', '--accent': 'var(--gold)' }}>
             <span className={styles.pointBullet} style={{ background: 'var(--gold)' }} />
-            <span className={styles.pointText}>Thúc đẩy công nghiệp hóa – hiện đại hóa: Giúp Việt Nam tham gia sâu vào chuỗi giá trị toàn cầu thông qua việc mở cửa thị trường và thu hút đầu tư</span>
-          </div>
-          <div className={styles.point} style={{ '--delay': '240ms', '--accent': 'var(--gold)' }}>
-            <span className={styles.pointBullet} style={{ background: 'var(--gold)' }} />
-            <span className={styles.pointText}>Ví dụ điển hình: Gia nhập WTO (2007), tham gia ASEAN, APEC, ký kết CPTPP và RCEP</span>
+            <span className={styles.pointText}>Thúc đẩy công nghiệp hóa – hiện đại hóa</span>
           </div>
         </div>
 
